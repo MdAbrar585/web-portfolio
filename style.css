@@ -1,6 +1,7 @@
 body{
     font-family: 'Lora', serif;
     margin: 0px;
+
 }
 h1{
     font-size: 50px;
@@ -8,24 +9,30 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+    color: dimgray;
+}
 .name{
     color: orange;
 }
 .half-width{
     width: 40%;
+    height: 500px;
     float: left;
+    margin-left: 90px;
+    overflow: hidden;
 }
 .half-width img{
     width: 100%;
-    
+
 }
 .image1{
-    margin-left: 200px;
+    /* margin-left: 200px; */
     padding-top: 10px;
 }
-.half-width h1,h2,h3,p,a,h4{
+/* .half-width h1,h2,h3,p,a,h4{
     margin-left: 120px;
-}
+} */
 .half-width a{
     border: 1px solid #030303;
     text-decoration: none;
@@ -40,10 +47,52 @@ h2{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 600px;
 }
 .middle{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.orange-highlight{
+    color: orange;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 6px;
+    height: 50%;
+    padding: 10px;
+    /* background-color: white; */
+}
+.exp-heading{
+    margin-left: 88px;
+    margin-bottom: 70px;
+}
+.hov :hover{
+    background: gray;
+    color: white;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 40px;
+}
+/* .experience :hover{
+    background: gray;
+    color: white;
+} */
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
