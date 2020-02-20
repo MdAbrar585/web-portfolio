@@ -11,6 +11,8 @@ h2{
 }
 p{
     color: dimgray;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: justify;
 }
 .name{
     color: orange;
