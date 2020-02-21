@@ -24,6 +24,13 @@ p{
     margin-left: 90px;
     overflow: hidden;
 }
+.half-width1{
+    
+    height: 500px;
+    float: left;
+    margin-left: 90px;
+    overflow: hidden;
+}
 .half-width img{
     width: 100%;
 
